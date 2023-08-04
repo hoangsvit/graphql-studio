@@ -1,15 +1,20 @@
 # graphql-studio
+
 The GraphOS Studio Explorer
 
-[![pages-build-deployment](https://github.com/hoangsvit/graphql-studio/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/hoangsvit/graphql-studio/actions/workflows/pages/pages-build-deployment)
+[![pages-build-deployment](https://github.com/hoangsvit/graphql-studio/actions/workflows/pages/pages-build-deployment/badge.svg)](https://eplus.dev)
 
 -----
 
 1. One-click query building in Explorer
 
+[![One-click query building in Explorer](https://github.com/hoangsvit/graphql-studio/blob/main/assets/img/1.gif)](https://graphql-studio.eplus.dev/)
+
 Typing out GraphQL queries by hand is time-consuming at best and a frustrating minefield of confusing paths, missed brackets, and incorrect variables at worst. Explorer offers no-code query-building to eliminate syntax errors and help you be more productive. Of course, if you still need to add hand-written code, you can do just that with Explorer’s editor with query linting and autocomplete.
 
 2. ⌘ + K field and path search
+
+[![⌘ + K field and path search](https://github.com/hoangsvit/graphql-studio/blob/main/assets/img/2.gif)](https://graphql-studio.eplus.dev/)
 
 Your graph may be very deep and have thousands of fields and types. You know what data you’re looking for but the more your graph scales, the more difficult it becomes to navigate the graph to get there. Explorer’s ⌘ + K intelligent search shows you all of the possible paths to a field or type. Choose the path you want to use, and our one-click query builder will add your query to the sandbox without writing a single line of code.
 

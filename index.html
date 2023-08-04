@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="The GraphOS Studio Explorer">
+    <meta name="keywords" content="HTML, CSS, JavaScript, meta tags">
+    <meta name="author" content="Your Name">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" href="assets/icons8-graphql-windows-11-color-16.png" type="image/x-icon">
+    <!-- Or use a PNG/JPG image favicon -->
+    <!-- <link rel="icon" href="/favicon.png" type="image/png"> -->
+    <!-- <link rel="icon" href="/favicon.jpg" type="image/jpeg"> -->
+    <title>GraphQL Studio</title>
+</head>
+<body>
+<div id="sandbox" style="position:absolute;top:0;right:0;bottom:0;left:0"></div>
+<script src="https://embeddable-sandbox.cdn.apollographql.com/_latest/embeddable-sandbox.umd.production.min.js"></script>
+<script>
+ new window.EmbeddedSandbox({
+   target: "#sandbox",
+   // Pass through your server href if you are embedding on an endpoint.
+   // Otherwise, you can pass whatever endpoint you want Sandbox to start up with here.
+   initialEndpoint: 'http://127.0.0.1:8000/graphql',
+ });
+ // advanced options: https://www.apollographql.com/docs/studio/explorer/sandbox#embedding-sandbox
+</script>
+</body>
+</html>
+
+

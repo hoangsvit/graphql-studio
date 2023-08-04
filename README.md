@@ -30,4 +30,4 @@ Just because you’re working on your schema locally doesn’t mean that you sho
 - <https://graphql-studio.eplus.dev/?endpoint=https://demo.saleor.io/graphql/>
 
 5. No login required
-You can use the Schema Reference and Explorer in Sandbox with your GraphQL endpoint just by going to sandbox.apollo.dev. You’ll never have to create an account or log in, though if you do we can show you your query history and open up some additional customization settings.
+You can use the Schema Reference and Explorer in Sandbox with your GraphQL endpoint just by going to graphql-studio.eplus.dev. You’ll never have to create an account or log in, though if you do we can show you your query history and open up some additional customization settings.
